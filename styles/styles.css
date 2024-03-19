@@ -84,14 +84,17 @@ main section {
 
 /* Welcome section styles  */
 
-.welcome-content {
+.welcome-bg {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/images/welcome-bg.png');
     background-repeat: no-repeat;
     border-radius: 16px;
+}
+
+.welcome-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 65px 0;
+    padding: 65px 125px;
 }
 
 .welcome-text {
